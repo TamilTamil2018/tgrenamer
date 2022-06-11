@@ -36,7 +36,7 @@ Telegram File Renamer Bot
 * `/broadcast` reply to message
 
 ### Deploy to Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/CrazeBots/rename-bot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TamilTamil2018/tgrenamer)
 
 ## License
 ````
@@ -49,11 +49,8 @@ and larger works may be distributed under different terms and without source cod
 ````
 
 ## Support 🇮🇳
-<a href="https://t.me/CrazeBots">
+<a href="https://t.me/Team_idiots">
    <p> Telegram </p>
-  </a>
-<a href="https://youtube.com/c/technologyrk">
-   <p> YouTube </p>
   </a>
 
 ## Credits
