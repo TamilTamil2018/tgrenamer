@@ -2,8 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import ( InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 import humanize
 from helper.database import  insert 
-SUPPORT_CH = 'Crazebots'
-YOUTUBE = 'TechnologyRk'
+SUPPORT_CH = 'Team_idiots'
 @Client.on_message(filters.private & filters.command(["start"]))
 async def start(client,message):
 	insert(int(message.chat.id))
@@ -13,9 +12,7 @@ async def start(client,message):
 	**Document Or Video** and enter new filenameto rename it__
 	""",reply_to_message_id = message.message_id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{SUPPORT_CH}") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url=f"https://youtube.com/c/{YOUTUBE}") ]  ]))
-
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url=f"https://t.me/{SUPPORT_CH}") ]]
 
 @Client.on_message(filters.private &( filters.document | filters.audio | filters.video ))
 async def send_doc(client,message):
